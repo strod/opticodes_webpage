@@ -128,7 +128,7 @@ h6 {
   padding: 0 0 10px 0;
   font-size: 14px;
   transition: all 0.5s;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  /* background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat; */
 }
 
 #topbar .social-links {
@@ -166,7 +166,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background: #f5f8fd 
+  /* background: #f5f8fd  */
 }
 
 #header.header-scrolled,
@@ -216,21 +216,12 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  /* background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat; */
+  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
   background-size: cover;
 }
 
 #intro .intro-info h2 {
-  color: #ffffff;
-  text-shadow: 
-    /* Top-left border shadow  */
-    -1px -1px 0 rgb(141, 141, 141),
-    /* Top-right border shadow */
-    1px -1px 0 rgb(141, 141, 141),
-    /* Bottom-left border shadow */
-    -1px 1px 0 rgb(141, 141, 141), 
-    /* Bottom-right border shadow */
-    1px 1px 0 rgb(141, 141, 141);
+  color: #403e67; 
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -238,15 +229,6 @@ h6 {
 
 #intro .intro-info h2 span {
   color: #1bb1dc;
-  text-shadow: 
-    /* Top-left border shadow  */
-    -1px -1px 0 rgba(141, 141, 141, 0),
-    /* Top-right border shadow */
-    1px -1px 0 rgb(141, 141, 141, 0),
-    /* Bottom-left border shadow */
-    -1px 1px 0 rgb(141, 141, 141, 0), 
-    /* Bottom-right border shadow */
-    1px 1px 0 rgb(141, 141, 141, 0);
 }
 
 #intro .intro-info .btn-get-started,
@@ -268,27 +250,6 @@ h6 {
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
   background: #0a98c0;
-}
-
-#video-background-intro {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-#intro-hover-content {
-  position: relative;
-  z-index: 1;
-  /* Add any styling for the content div here */
-  /* For example, you can center the content */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 /*--------------------------------------------------------------
@@ -542,8 +503,6 @@ h6 {
 
 #about {
   padding: 80px 0;
-  background: #f5f8fd 
-  
 }
 
 #about .about-content {
@@ -684,7 +643,6 @@ h6 {
 
 #why-us {
   padding: 60px 0;
-  background: #f5f8fd 
 }
 
 #why-us .why-us-content .features {
@@ -775,7 +733,6 @@ h6 {
 
 #features {
   padding: 80px 0;
-  background: #f5f8fd 
 }
 
 #features h4 {
@@ -930,7 +887,6 @@ h6 {
 
 #testimonials {
   padding: 60px 0;
-  background: #f5f8fd 
 }
 
 #testimonials .section-header {
